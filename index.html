@@ -59,14 +59,46 @@
 
         <!-- banner section starts here  -->
  <div class="carousel m-20">
-  <div id="slide1" class="carousel-item relative w-full">
+  <div id="slide1" class="carousel-item relative w-full ">
     <div class="slide1-overlay"></div>
-    <div class="absolute text-center  md:px-56  md:py-14 bg-blend-darken">
+    <div class="absolute text-center md:px-56  md:py-14 bg-blend-darken">
       <h1 class="font-extrabold text-7xl text-white ">Exotic tastes at your <br>doorstep</h1>
-      <p class="m-10 text-white">We supply highly quality organic products</p>
+      <p class="m-10 items-center text-white">We supply highly quality organic products</p>
+
       <button class="bg-rose-700 p-3 rounded-xl text-white text-xl font-bold">Shop Now</button>
     </div>
-    <img src="./images//banner1.png" class="w-full" />
+    <div>
+      <img src="./images//banner1.png" class="w-full" />
+      <div class="-mt-24 badge bg-w h-24 p-8 md:p-20 md:text-center md:ml-40 ">
+        <figure>
+          <img  src="./images/fruit1.png" alt="">
+        <figcaption>Grapes</figcaption>
+      </figure>
+
+        <figure>
+        <img src="./images/fruit2.png" alt="">
+        <figcaption>Oranges</figcaption>
+        </figure>
+     
+        <figure>
+          <img src="./images/fruit3.png" alt="">
+          <figcaption>Mangos</figcaption>
+          </figure>
+       
+          <figure>
+            <img src="./images/fruit4.png" alt="">
+            <figcaption>Strawberry</figcaption>
+            </figure>
+          <figure>
+              <img src="./images/fruit5.png" alt="">
+              <figcaption>Pomegranate</figcaption>
+              </figure>
+
+      </div>
+    </div>
+    
+
+    
     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide4" class="btn btn-circle">❮</a> 
       <a href="#slide2" class="btn btn-circle">❯</a>
@@ -119,44 +151,64 @@
     </header>
     <main>
       <!-- deal of the day section starts-->
-      <section >
+      <section>
+      <div>
         <div class="flex flex-1 gap-80">
         <div>
         <h1 class="font-extrabold text-5xl text-black p-24">Deal of the day</h1>
-        <p class="font-semibold text-gray-500 pb-32 pl-24">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        <p class="font-semibold text-gray-500 p-24 ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
 
         <div class="grid grid-flow-col gap-5 text-center auto-cols-max flex-1 pt-56">
-          <div class="flex flex-col">
+          <div class="flex flex-col ">
+            <div class="flex">
             <span class="countdown font-mono text-5xl">
-              <span style="--value:29;"></span>
+              <span class="font-extrabold text-5xl" style="--value:29;"></span>
             </span>
-            <div></div>
+              <img src="./icons/dotted.svg" alt="">
+            </div>
+            <div class="font-medium text-base text-gray-400">
             days
-
+          </div>
           </div> 
           <div class="flex flex-col">
+            <div class="flex">
             <span class="countdown font-mono text-5xl">
-              <span style="--value:15;"></span>
+              <span class="font-extrabold text-5xl" style="--value:15;"></span>
             </span>
+            <img src="./icons/dotted.svg" alt="">
+            </div>
+            <div class="font-medium text-gray-400">
             hours
+          </div>
           </div> 
           <div class="flex flex-col">
+            <div class="flex">
             <span class="countdown font-mono text-5xl">
-              <span style="--value:25;"></span>
+              <span class="font-extrabold text-5xl" style="--value:25;"></span>
             </span>
+            <img src="./icons/dotted.svg" alt="">
+          </div>
+         <div class="font-medium text-gray-400">
             min
-          </div> 
+          </div>
+          </div>
           <div class="flex flex-col">
             <span class="countdown font-mono text-5xl">
-              <span style="--value:08;"></span>
+              <span class="font-extrabold text-5xl" style="--value:08;"></span>
             </span>
+           <div class="font-medium text-gray-400">
             sec
           </div>
         </div>
       </div>
-    
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 m-20 gap-4 ">
+    </div>
+
+
+
+
+       <div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 m-20 gap-4  ">
 
            <!-- card 1 -->
            <div class="card bg-base-100  border border-gray-400 ">
@@ -267,11 +319,18 @@
           <button class="btn font-extrabold  text-xl text-white bg-red-400">Shop All</button>
         </div>
        
-      </section>
+      </div>
+
+      </div>
+
+    </section>
+
 
       <!-- deal of the day section ends-->
 
+
       <!-- meet the team section starts-->
+
       <section class="md:m-24">
         <div class="hero min-h-screen" style="background-image: url(./images/team.png);">
           <div class="hero-overlay"></div>
@@ -340,24 +399,24 @@
         <h1 class="text-5xl font-extrabold text-[#121212] p-10">Why Choose Us</h1>
         <p class="font-medium text-gray-500">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
-       <div class="flex">
+       <div class="flex position">
 
         
       <div class="m-6" >
-          <div class="flex gap-5">
-            <img class="w-6 h-6  border-2 bg-slate-300 rounded-[50px] " src="./icons/group 1.svg" alt="">
+          <div class="flex  gap-5">
+            <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/group 1.svg" alt="">
             <h3 class="font-bold">Dedicated Team <br> <hr> <span class="font-normal">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</span></h3>
             
             </div>
 
             <div class="flex gap-5">
-              <img src="./icons/love 1.svg" alt="">
+              <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/love 1.svg" alt="">
               <h3 class="font-bold">fhbfghf <br> <hr> <span class="font-normal">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</span></h3>
               
               </div>
 
               <div class="flex gap-5">
-                <img src="./icons/gift-box 1.svg" alt="">
+                <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/gift-box 1.svg" alt="">
                 <h3 class="font-bold">fhbfghf <br> <hr> <span class="font-normal">Professional employees are there for you to pick <br>the most amazing and fresh fruits.</span></h3>
                 
                 </div>
@@ -372,20 +431,20 @@
       <div class="flex gap-5 text-end ">
         
         <h3 class="font-bold ">Integrated Supplier <br> <hr> <span class="font-normal">Professional employees are there for you to pick<br>the most amazing and fresh fruits.</span></h3>
-        <img src="./icons/fruit 1.svg" alt="">
+        <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/fruit 1.svg" alt="">
        
         
         </div>
 
         <div class="flex gap-5 text-end ">
           <h3 class="font-bold">Sustainable Practice <br> <hr> <span class="font-normal">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</span></h3>
-          <img src="./icons/ice-cream 1.svg" alt="">
+          <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/ice-cream 1.svg" alt="">
           
           </div>
 
           <div class="flex gap-5 text-end">
             <h3 class="font-bold">The Benefits Only <br> <hr> <span class="font-normal">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</span></h3>
-            <img src="./icons/like 1.svg" alt="">
+            <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/like 1.svg" alt="">
             
             </div>
       </div> 
