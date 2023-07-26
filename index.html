@@ -33,7 +33,7 @@
                             <img class="pl-44" src="./icons/Frame (4).svg" alt="">
                         </button>
                     </div>
-                    <div class="dropdown md:hidden">
+                    <div class="dropdown md:hidden lg:hidden">
                       <label tabindex="0" class="btn btn-ghost btn-circle">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                       </label>
@@ -48,8 +48,12 @@
                               <p>Search here</p>
                               <img class="pl-44" src="./icons/Frame (4).svg" alt=""></button></a></li>
                       </ul>
-                    </div>
-        </div>   
+                    </div>  
+
+                   
+        </div>
+        
+
                 
         <!-- navbar section ends here -->
 
@@ -104,26 +108,20 @@
     </div>
   </div>
 </div>
- 
 
-
- 
-
-
-
-
-
-         <!-- banner section starts here  -->
+         <!-- banner section ends here  -->
 
 
     </header>
     <main>
       <!-- deal of the day section starts-->
-      <section class="flex gap-80">
+      <section >
+        <div class="flex flex-1 gap-80">
         <div>
         <h1 class="font-extrabold text-5xl text-black p-24">Deal of the day</h1>
         <p class="font-semibold text-gray-500 pb-32 pl-24">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
       </div>
+
         <div class="grid grid-flow-col gap-5 text-center auto-cols-max flex-1 pt-56">
           <div class="flex flex-col">
             <span class="countdown font-mono text-5xl">
@@ -151,19 +149,130 @@
             </span>
             sec
           </div>
-          
+        </div>
+      </div>
+    
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+
+           <!-- card 1 -->
+           <div class="card bg-base-100 p-8 border border-gray-400 m-20 ">
+            <figure><img src="./images//fruit6.png"  /></figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center font-bold text-2xl">12.90$ - 18.85$</h2>
+              <hr>
+              <p class="text-center p-5 font-medium text-gray-500">Apples</p>
+              <div class="rating rating-lg rating-half justify-center">
+                <input type="radio" name="rating-10" class="rating-hidden" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" checked />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+              </div>
+              <div class="card-actions justify-center ">
+                <button class="btn bg-white btn-ghost text-red-500">Details</button>
+              </div>
+            </div>
+          </div>
+
+           <!-- card 2 -->
+           <div class="card bg-base-100 p-8 border border-gray-400 m-20">
+            <figure><img src="./images//fruit7.png"  /></figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center font-bold text-2xl">12.90$ - 18.85$</h2>
+              <hr>
+              <p class="text-center p-5 font-medium text-gray-500">Orangs</p>
+              <div class="rating rating-lg rating-half justify-center">
+                <input type="radio" name="rating-10" class="rating-hidden" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" checked />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+              </div>
+              <div class="card-actions justify-center">
+                <button class="btn bg-white btn-ghost text-red-500">Details</button>
+              </div>
+            </div>
+          </div>
+
+           <!-- card 3 -->
+           <div class="card bg-base-100 p-8 border border-gray-400 m-20">
+            <figure><img src="./images//fruit8.png"  /></figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center font-bold text-2xl">12.90$ - 18.85$</h2>
+              <hr>
+              <p class="text-center p-5 font-medium text-gray-500">Red Dagons</p>
+              <div class="rating rating-lg rating-half justify-center">
+                <input type="radio" name="rating-10" class="rating-hidden" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" checked />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+              </div>
+              <div class="card-actions justify-center">
+                <button class="btn bg-white btn-ghost text-red-500">Details</button>
+              </div>
+            </div>
+          </div>
+           
+           <!-- card 4 -->
+           <div class="card bg-base-100 p-8 border border-gray-400 m-20">
+            <figure><img src="./images//fruit9.png" /></figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center font-bold text-2xl">12.90$ - 18.85$</h2>
+              <hr>
+              <p class="text-center p-5 font-medium text-gray-500">Bananas</p>
+              <div class="rating rating-lg rating-half justify-center">
+                <input type="radio" name="rating-10" class="rating-hidden" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" checked />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-1" />
+                <input type="radio" name="rating-10" class="bg-rose-500 mask mask-star-2 mask-half-2" />
+              </div>
+              <div class="card-actions justify-center">
+                <button class="btn bg-white btn-ghost text-red-500">Details</button>
+              </div>
+            </div>
+          </div>
         </div>
 
+        <div class="flex justify-center p-24 ">
+          <button class="btn font-extrabold  text-xl text-white bg-red-400  ">Shop All</button>
+        </div>
+       
       </section>
-
-
 
       <!-- deal of the day section ends-->
 
 
 
     </main>
+
     <!-- footer section starts here -->
+
     <footer class="footer footer-center p-10 bg-black mx-auto">
         <div class="flex">
           <img src="./icons/titel.svg" alt="">
