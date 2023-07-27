@@ -12,65 +12,60 @@
 <body>
     <header>
         <!-- navbar section starts here -->
+
          <div class="navbar max-w-screen-xl mx-auto my-10 py-5 px-8 md bg-rose-600 border-2 rounded-[600px]">
-          
-            <div class="flex-1 text-white gap-7 p-3">
+          <div class="dropdown positison-right md:hidden lg:hidden">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+              <li><a><button> <button class="flex 
+               rounded-3xl
+                bg-white" >
+                    <p>Search here</p>
+                    <img class="pl-44" src="./icons/Frame (4).svg" alt=""></button></a></li>
+            </ul>
+          </div>
+            <div class="hidden md:flex flex-1 text-white gap-7 p-3">
                 <p>Home</p>
                 <p>About Us</p>
                 <p>Shop</p>
                 <p>All fruits</p>
               </div>
-             
                   <div class="flex-1 text-white text-4xl font-bold">
                     <img src="./icons/titel.svg" alt="">
                     <p>Fruit Burst</p>
                   </div>
-                    <div >
-                        <button class="flex
+                   <div >
+                        <button class="hidden md:flex flex
                         m-3 w-80 p-3 rounded-3xl
                         bg-white" >
                             <p>Search here</p>
                             <img class="pl-44" src="./icons/Frame (4).svg" alt="">
                         </button>
-                    </div>
+                      </div>
 
-
-                    <div class="dropdown positison-right md:hidden lg:hidden">
-                      <label tabindex="0" class="btn btn-ghost btn-circle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                      </label>
-                      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Home</a></li>
-                        <li><a>About Us</a></li>
-                        <li><a>Shop</a></li>
-                        <li><a>All Fruits</a></li>
-                        <li><a><button> <button class="flex 
-                         rounded-3xl
-                          bg-white" >
-                              <p>Search here</p>
-                              <img class="pl-44" src="./icons/Frame (4).svg" alt=""></button></a></li>
-                      </ul>
-                    </div>
-
-                   
         </div>
         
-
-                
         <!-- navbar section ends here -->
 
         <!-- banner section starts here  -->
+        
  <div class="carousel m-20 ">
   <div id="slide1" class="carousel-item relative w-full  ">
     <div class="slide1-overlay"></div>
-    <div class="absolute text-center md:px-56  md:py-14 bg-blend-darken">
+     <div class="absolute text-center md:px-56  md:py-14 bg-blend-darken">
        <h1 class="font-extrabold text-7xl text-white ">Exotic tastes at your <br>doorstep</h1>
       <p class="m-10 items-center text-white">We supply highly quality organic products</p>
 
       <button class="bg-rose-700 p-3 rounded-xl text-white text-xl font-bold">Shop Now</button>
     </div>
     <div>
-      <img src="./images/banner1.png" alt="" class="w-full">
+      <img src="./images/banner1.png" alt="" class="">
        <div class="-mt-24 badge bg-w h-24 p-8 md:p-20 md:text-center md:ml-40 ">
         <figure>
           <img  src="./images/fruit1.png" alt="">
@@ -105,6 +100,7 @@
       <a href="#slide2" class="btn btn-circle">❯</a>
     </div>
   </div> 
+
   <div id="slide2" class="carousel-item relative w-full">
     <div class="slide2-overlay"></div>
     <div class="absolute text-center  md:px-56  md:py-14 bg-blend-darken">
@@ -178,6 +174,7 @@
     </div>
   </div>
 </div>
+
 
          <!-- banner section ends here  -->
 
@@ -463,10 +460,11 @@
               <p class=" text-white ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
           </div>
+
           <div class=" flex mt-36 gap-16 text-center  ">
             <figure>
             <img class=" md:w-[140px] md:h-[140px]" src="./images/member1.png" alt="" srcset="">
-            <p class="text-white text-2xl font-bold text-center">Awlad Hossain</p>
+            <figcaption class="text-white text-2xl font-bold text-center">Awlad Hossain</figcaption>
             <p class="text-white text-center">Fruits Expert</p>
             <div class="flex gap-6 ">
             <img src="./icons/facebook 1 (1).svg " alt="">
@@ -510,9 +508,6 @@
 
       </section>
 
-
-
-
        <!-- meet the team section ends-->
 
        <!-- why choose us section starts -->
@@ -524,54 +519,40 @@
       </div>
        <div class="flex justify-center ">
 
-        
       <div class="m-6" >
           <div class="flex  gap-5">
             <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/group 1.svg" alt="">
             <h3 class="font-bold">Dedicated Team <br> <hr> <span class="font-normal">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</span></h3>
             
-            </div>
-
+          </div>
             <div class="flex gap-5">
               <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/love 1.svg" alt="">
               <h3 class="font-bold">fhbfghf <br> <hr> <span class="font-normal">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</span></h3>
-              
               </div>
-
               <div class="flex gap-5">
                 <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/gift-box 1.svg" alt="">
                 <h3 class="font-bold">fhbfghf <br> <hr> <span class="font-normal">Professional employees are there for you to pick <br>the most amazing and fresh fruits.</span></h3>
-                
                 </div>
           </div> 
 
      <div class=" md:w-[400px] md:h-[400px]">
       <img src="./images/whychoose1.png" alt="">
-
      </div>
-
      <div class="m-6" >
       <div class="flex gap-5 text-end ">
         
         <h3 class="font-bold ">Integrated Supplier <br> <hr> <span class="font-normal">Professional employees are there for you to pick<br>the most amazing and fresh fruits.</span></h3>
         <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/fruit 1.svg" alt="">
-       
-        
         </div>
-
         <div class="flex gap-5 text-end ">
           <h3 class="font-bold">Sustainable Practice <br> <hr> <span class="font-normal">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</span></h3>
           <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/ice-cream 1.svg" alt="">
-          
           </div>
-
           <div class="flex gap-5 text-end">
             <h3 class="font-bold">The Benefits Only <br> <hr> <span class="font-normal">Professional employees are there for you to pick <br> the most amazing and fresh fruits.</span></h3>
             <img class="w-6 h-6  border-2 bg-slate-200 rounded-[50px] " src="./icons/like 1.svg" alt="">
-            
             </div>
       </div> 
-
       </div>
        </section>
 
